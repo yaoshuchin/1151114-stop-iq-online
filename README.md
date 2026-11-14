@@ -6,17 +6,18 @@
 
 ## 📌 專案特點與架構
 
-1. **檔案與圖片完整實體複製 (100% 離線可用，絕無外部圖床依賴)**
-   - 全看板所有卡片附加圖片與照片，全數抓取**高解析原始大圖（Full Resolution）**實體典藏於 `./assets/images/`，徹底擺脫外部 Padlet 縮圖快取與過期權杖限制。
-   - 包含學員上傳之認知實驗推論截圖、成績單認證圖、課程封面與高解析背景畫布。
-   - 李宜玲老師精闢講義完整離線鏡像（HTML 網頁版 + Markdown 原始文檔）。
-   - 包含講義內嵌之 14 份教學圖表實體檔案（`./assets/lectures/images/`）。
-   - 包含第 4 節課堂實作操作影片（`assets/lectures/SS練習.mp4` · 1.68 MB 完整收錄）。
-   - 提供「下載本機檔案 (已完整典藏)」抽屜，可一鍵下載：
-     - `assets/exports/padlet_data_export.xlsx`（官方看板全量試算表，含檔案大小與路徑）
-     - `assets/exports/padlet_document_export.pdf`（高解析向量式全板備份文檔）
-     - `assets/exports/padlet_screenshot_export.png`（全景畫布備份截圖）
-     - 講義 HTML / Markdown 與影片離線包
+1. **圖片與檔案直接下載複製 (100% 離線可用，絕無外部 Padlet 依賴)**
+   - **全面剔除外部 Padlet 轉址**：移除所有跳轉回 Padlet 的作者個版連結與 Wish 網址，全部改為本地資源直接讀取與下載。
+   - **卡片直覺下載**：每張看板卡片與詳情彈窗均具備「📥 下載原圖」、「🔍 檢視」按鈕，學員可一鍵將 28 份高解析實體原檔儲存至本機。
+   - **3 套互動測驗與遊戲免聯網本機執行**：
+     - `assets/games/246game.html`（2-4-6 認知實驗系統，含本機截圖庫）
+     - `assets/games/mygopen-test.html`（防詐查核線上測驗題庫版 · 4.03 MB）
+     - `assets/games/case072.html`（情境模擬查核解謎系統 · 4.68 MB）
+   - **李宜玲老師精闢講義離線雙格式**：HTML 網頁版 + Markdown 原始文檔 + 14 份教學圖表（`./assets/lectures/images/`）。
+   - **第 4 節課堂實作操作影片**：`assets/lectures/SS練習.mp4`（1.68 MB，MP4 視訊實體收錄）。
+   - **兩大全量一鍵打包禮包**：
+     - `assets/exports/padlet_full_offline_bundle.zip`（24.35 MB，全站離線旗艦大禮包）
+     - `assets/exports/padlet_images_all.zip`（12.28 MB，全板高解析圖片包）
 
 2. **門禁防護安全規範**
    - 採用瀏覽器原生 **Web Crypto API** (`crypto.subtle.digest('SHA-256')`) 進行研習專屬內部驗證。
@@ -34,16 +35,23 @@
 ## 📂 檔案目錄結構
 
 ```text
-├── index.html                               # 典藏看板主網頁介面
-├── data.js                                  # 看板完整結構化本機資料庫 (高解析實體路徑)
+├── index.html                               # 典藏看板主網頁介面 (直接下載與本機執行)
+├── data.js                                  # 看板完整結構化本機資料庫 (零 Padlet 依賴)
 ├── .nojekyll                                # GitHub Pages 靜態發布配置
 ├── .gitignore                               # Git 忽略清單
 ├── README.md                                # 專案說明文件
 └── assets/                                  # 實體離線資源庫
-    ├── exports/                             # 官方全板備份輸出
-    │   ├── padlet_data_export.xlsx          # 全看板 Excel 試算表
+    ├── exports/                             # 官方全板備份與打包專區
+    │   ├── padlet_full_offline_bundle.zip   # 全站全量離線旗艦大禮包 (24.35 MB)
+    │   ├── padlet_images_all.zip            # 全板高解析圖片懶人包 (12.28 MB)
+    │   ├── padlet_data_export.xlsx          # 全看板 Excel 試算表 (含實體路徑/大小)
     │   ├── padlet_document_export.pdf       # 高解析全板 PDF 檔案
-    │   └── padlet_screenshot_export.png     # 全景畫布截圖
+    │   └── padlet_screenshot_export.png     # 全景畫布長截圖
+    ├── games/                               # 3 套獨立離線互動遊戲系統
+    │   ├── 246game.html                     # 2-4-6 認知實驗系統
+    │   ├── mygopen-test.html                # 防詐查核線上測驗 (4.03 MB)
+    │   ├── case072.html                     # 情境模擬查核遊戲 (4.68 MB)
+    │   └── html2canvas.min.js               # 本地截圖支援庫
     ├── lectures/                            # 研習講義與影音離線鏡像
     │   ├── lecture_1_3.html                 # 第1~3節 講義離線 HTML
     │   ├── lecture_1_3_offline.md           # 第1~3節 講義 Markdown 源碼
