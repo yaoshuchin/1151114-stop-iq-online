@@ -1,0 +1,1021 @@
+<!DOCTYPE html>
+<html lang="en" data-themeable="true" theme="dark">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="csrf-token" content="DsH7trQ4-avKeVF6tdVUq0KwJo9Hcq9KF0Us">
+    
+    
+    <meta name="description" content="學習目標：
+1. 能夠運用「以圖搜圖」功能進行查核
+2. 能夠運用GOOGLE智慧鏡頭+「以圖搜圖」功能進行查核
+3. 能夠使用AI模式進行查核
+4. 能夠使用prompt提升查核的準確度
+5. 認識其它查核工具">
+    
+    <title>第四節 STOP麥擱騙！我智商在線 (教師版) - HackMD</title>
+    <link rel="icon" type="image/png" href="https://hackmd.io/favicon.png">
+	<link rel="apple-touch-icon" href="https://hackmd.io/apple-touch-icon.png">
+	<!--  meta value for server side given sign in boolean -->
+    <meta name="signin" content="false">
+
+    <script nonce="dc036a1b-7b30-4415-9366-cc8441b003ab">
+  (() => {
+    const resolveTheme = (preferredTheme) => {
+      if (preferredTheme) return preferredTheme
+      if (
+        typeof window.matchMedia === 'function' &&
+        window.matchMedia('(prefers-color-scheme: dark)').matches
+      ) {
+        return 'dark'
+      }
+      return 'light'
+    }
+
+    const isPrint = new URL(window.location.href).searchParams.get('print') === 'true'
+    const uiTheme = resolveTheme('dark' || null)
+    const contentTheme = isPrint ? 'light' : resolveTheme('' || null)
+
+    window.__HMD_IS_PRINT_MODE__ = isPrint
+    document.documentElement.setAttribute('theme', uiTheme)
+    window.__HMD_INITIAL_UI_THEME__ = uiTheme
+    window.__HMD_INITIAL_CONTENT_THEME__ = contentTheme
+  })()
+</script>
+
+    
+<script nonce="dc036a1b-7b30-4415-9366-cc8441b003ab">
+  window.domain = 'hackmd.io'
+  window.urlpath = ''
+  window.debug = false || window.localStorage.getItem('HMD_DEBUG_FLAG') === 'true'
+  window.version = '1.3.0'
+  window.brand = 'HackMD'
+
+  
+  window.NOTE_ID = 'ZF3RHFOURzqfac0xOGulhA'
+  
+
+  
+  window.PUBLISH_TYPE = 'view'
+  
+
+  window.GOOGLE_DRIVE_API_KEY = 'AIzaSyAHmcP5gL_64ZafuAYOvJruFAIaYgHQaY4'
+  window.GOOGLE_DRIVE_CLIENT_ID = '65857506266-76uhhee8se8dgs1i0q8fhtj1prg0ar27.apps.googleusercontent.com'
+  window.DROPBOX_APP_KEY = 'rdoizrlnkuha23r'
+  
+  window.PLANTUML_SERVER = 'https://ptuml.hackmd.io'
+
+  window.ASSET_URL = 'https://assets.hackmd.io'
+
+  window.USER_CAN_CREATE_TEAM = true
+  window.USER_CAN_DELETE_ACCOUNT = true
+  window.USER_DELETE_ACCOUNT_VIA_EMAIL = true
+  window.PAYMENT_ENABLED = true
+  window.PAYMENT_PROMOTION_BANNER_ENABLED = false
+  window.GITHUB_SYNC_ENABLED = true
+  window.GITLAB_SYNC_ENABLED = false
+  window.GITLAB_SYNC_BASE_URL = ''
+  window.VCS_SYNC_MODE = 'github'
+  window.VCS_PROVIDER_NAME = 'GitHub'
+  window.FREE_TEAM_NUM = 20
+  window.FREE_TEAM_MEMBER_NUM = 3
+  window.FREE_PUBLIC_TEAM_NUM = 10
+  window.FOLDER_ENABLE = true
+
+  
+  window.EE_SITE_ENABLE = false
+  window.EE_SITE_NAME = 'false'
+  window.EE_SITE_LINK = 'false'
+  window.EESITE_INFO = false
+  window.ENTERPRISE_DISCOVERY_ENABLE = false
+  window.ENTERPRISE_DISCOVERY_TEAM = true
+  window.ENTERPRISE_DISCOVERY_NOTE = true
+  window.ENTERPRISE_DISCOVERY_VIEW_PERMISSION = 'guest'
+  
+  window.ALLOW_ANONYMOUS = true
+  window.ALLOW_ANONYMOUS_EDIT = false
+  window.ALLOW_DOWNLOAD_PDF = true
+  window.PUBLIC_OVERVIEW = false
+  window.INTERNAL_PUBLIC_OVERVIEW = false
+  window.FULL_TEXT_SEARCH_ENABLE = false
+  window.ALGOLIA_SEARCH_ENABLE = true
+  window.MARKETING_EMAIL_ENABLE = true
+  window.EMAIL_INVITATION_ENABLE = true
+  
+  
+  
+    window.WALLET_CONNECT_PROJECT_ID = '91d6fa182b725b5895a17a170a5878c1'
+  
+  window.API_MANAGEMENT_UI_ENABLE = true
+  window.FEEDBACK_UI_ENABLE = true
+  window.PUBLISH_ENABLE = true
+
+  
+
+  
+  window.SHOW_OVERVIEW = false
+  
+
+  
+  window.MENTIONS = {}
+  
+
+  
+  window.MENTION_ANCHORS = []
+  
+
+  
+  window.COMMENT_ANCHORS = []
+  
+
+  
+  window.IS_OWNER = false
+  
+
+  
+  window.IS_TEAM_ADMIN = false
+  
+
+  
+  window.IS_TEAM_MEMBER = false
+  
+
+  
+  window.IS_INVITEE_ADMIN = false
+  
+
+  
+  window.USER_PROFILE = '%7B%22name%22%3A%22Guest%20Carlson%22%7D'
+  
+
+  
+  window.VERSION_TIME = '1794615308673'
+  
+
+  
+  window.canEdit = false
+  
+
+  
+
+  
+  window.canWriteComment = false
+  
+
+  
+  window.canHideComment = false
+  
+
+  window.TRASH_NOTE_DELETE_AFTER_FREE = 3
+  window.TRASH_NOTE_DELETE_AFTER_PAID = 30
+
+  
+    window.ENABLED_PREVIEW_FEATURE = {}
+  
+
+  
+    window.ACTIVE_PREVIEW_FEATURE = ["beta-slide-preview","beta-note-insights","mcp-oauth"]
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    window.IS_OWNER_UPGRADED = false
+  
+
+  
+    window.IMGUR_FALLBACK_CDN = 'https://imgur-backup.hackmd.io'
+  
+
+  
+    window.YAML_METADATA_ENABLED = false
+  
+
+  
+    window.NOTE_CAPACITY_LIMIT = 50
+  
+
+  
+    window.DOCUMENT_MAX_LENGTH = 100000
+  
+
+  
+    window.SOCIAL_NETWORK_FEATURES_ENABLED = true
+  
+
+  
+    window.PUBLISHMENT_MODERATION_ENABLED = true
+  
+
+  
+    window.COMMENT_ENABLED = true
+  
+
+  
+    window.COMMENT_PERMISSION = "signed_in_users"
+  
+
+  window.SUGGEST_EDIT_ENABLED = true
+  
+    window.SUGGEST_EDIT_ENABLED = true
+  
+
+  
+    window.SUGGEST_EDIT_PERMISSION = "signed_in_users"
+  
+  
+    window.canWriteSuggestEdit = false
+  
+
+  window.CITATION_ENABLED = true
+
+  window.NOTE_FROM_COMMENT_ENABLED = true
+
+  
+    window.NOTE_FEATURES = {"emoji-reply":"signed_in_users","citation":"disabled"}
+  
+
+  
+    window.REALTIME_CLIENT_WITH_CREDENTIALS = false
+  
+
+  
+
+  
+    window.PREFERRED_UI_THEME = "dark"
+  
+
+  
+
+  
+    window.CUSTOM_STYLE_ENABLED = "true"
+  
+
+  
+
+  
+    window.ITERABLE_ENABLED = false
+  
+  
+    window.ITERABLE_API_KEY = "c2c36a44c2614fb19aa3b46d660bbce2"
+  
+
+  
+    window.CUSTOMERIO_ENABLED = true
+  
+  
+    window.CUSTOMERIO_WRITE_KEY = "90283c80a6498bb8d1ee"
+  
+  
+    window.CUSTOMERIO_SITE_ID = "9947d0d46b7ece25dea7"
+  
+
+  
+    window.TEXT_SELECTION_CHANGED = false
+  
+
+  
+    window.CAN_VIEW_HISTORY_AT_REVISION = false
+  
+
+  
+    window.GUIDED_COMMENT_ENABLED = true
+  
+
+  
+    window.ENCODED_SESSION_ID = "z1WtHE956nA9f1mMk5pzxJXwO/+4O56Lo+miak4n3ko="
+  
+
+  
+    window.COMMUNITY_ENABLED = true
+  
+
+  
+    window.NOTE_INSIGHTS_DEBUG_API_ENABLED = false
+  
+
+  
+
+  
+</script>
+
+
+    
+<!-- Google Tag Manager -->
+<script nonce="dc036a1b-7b30-4415-9366-cc8441b003ab">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KLW9Z3');</script>
+<!-- End Google Tag Manager -->
+
+
+    
+
+
+
+
+
+
+    <meta property="fb:app_id" content="1436904003272070">
+
+
+
+    <meta name="robots" content="noindex, nofollow">
+
+
+
+
+    <meta name="twitter:image:src" content="https://hackmd.io/_uploads/Bkqd4k3gGx.png">
+    <meta name="twitter:image:alt" content="第四節 STOP麥擱騙！我智商在線 (教師版) - HackMD">
+
+
+<meta name="twitter:site" content="@hackmdio" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="第四節 STOP麥擱騙！我智商在線 (教師版) - HackMD" />
+
+
+    <meta name="twitter:description" content="學習目標：
+1. 能夠運用「以圖搜圖」功能進行查核
+2. 能夠運用GOOGLE智慧鏡頭+「以圖搜圖」功能進行查核
+3. 能夠使用AI模式進行查核
+4. 能夠使用prompt提升查核的準確度
+5. 認識其它查核工具" />
+
+
+
+    <meta property="og:image" content="https://hackmd.io/_uploads/Bkqd4k3gGx.png">
+    <meta property="og:image:alt" content="第四節 STOP麥擱騙！我智商在線 (教師版) - HackMD">
+
+
+<meta property="og:site_name" content="HackMD" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="第四節 STOP麥擱騙！我智商在線 (教師版) - HackMD" />
+
+
+    <meta property="og:description" content="學習目標：
+1. 能夠運用「以圖搜圖」功能進行查核
+2. 能夠運用GOOGLE智慧鏡頭+「以圖搜圖」功能進行查核
+3. 能夠使用AI模式進行查核
+4. 能夠使用prompt提升查核的準確度
+5. 認識其它查核工具" />
+
+
+
+
+<!-- article meta -->
+
+
+
+
+
+<!-- profile meta -->
+
+
+
+    
+
+<link href="https://assets.hackmd.io/build/assets/font-vendor-Be-P1vdp.css" rel="stylesheet">
+<link href="https://assets.hackmd.io/build/assets/bootstrap-CYZ5638D.css" rel="stylesheet">
+<link href="https://assets.hackmd.io/build/assets/bootstrap-social-ZKQhajmh.css" rel="stylesheet">
+<link href="https://assets.hackmd.io/build/assets/emojify-BWgG_dOt.css" rel="stylesheet">
+<link href="https://assets.hackmd.io/build/assets/emojify-browser-BZgzJ8cg.css" rel="stylesheet">
+<link href="https://assets.hackmd.io/build/assets/hooks-D3btv-hh.css" rel="stylesheet">
+<link href="https://assets.hackmd.io/build/assets/site-Bvd5lKRL.css" rel="stylesheet">
+<link href="https://assets.hackmd.io/build/assets/profile-card-Dho1sIQa.css" rel="stylesheet">
+<link href="https://assets.hackmd.io/build/assets/RaccoonAnimations-DX29HfUc.css" rel="stylesheet">
+<link href="https://assets.hackmd.io/build/assets/Comments-CpPC9dcx.css" rel="stylesheet">
+<link href="https://assets.hackmd.io/build/assets/ratingGroup-BGl6GxjQ.css" rel="stylesheet">
+<link href="https://assets.hackmd.io/build/assets/modal-VbH54vXD.css" rel="stylesheet">
+<link href="https://assets.hackmd.io/build/assets/style-CtfVKkNT.css" rel="stylesheet">
+<link href="https://assets.hackmd.io/build/assets/GuidedCommentButton-C0YMcY5w.css" rel="stylesheet">
+<link href="https://assets.hackmd.io/build/assets/tooltip-DlvU6WtN.css" rel="stylesheet">
+<link href="https://assets.hackmd.io/build/assets/prism-CquFBWrB.css" rel="stylesheet">
+<link href="https://assets.hackmd.io/build/assets/extra-BmmbT0kl.css" rel="stylesheet">
+<link href="https://assets.hackmd.io/build/assets/pretty-BUmyF5Ge.css" rel="stylesheet">
+<link href="https://assets.hackmd.io/build/assets/common-vendor-DdG1o0aa.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" integrity="sha256-3Jy/GbSLrg0o9y5Z5n1uw0qxZECH7C6OQpVBgNFYa0g=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js" integrity="sha256-g6iAfvZp+nDQ2TdTR/VVKJf3bGro4ub5fvWSWVRi2NE=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/es5-shim/4.5.9/es5-shim.min.js" integrity="sha256-8E4Is26QH0bD52WoQpcB+R/tcWQtpzlCojrybUd7Mxo=" crossorigin="anonymous"></script>
+<![endif]-->
+
+    
+
+
+    <script nonce="dc036a1b-7b30-4415-9366-cc8441b003ab">
+  window.__shouldIgnoreTracker = function() {
+    const isDebug = window.debug === true
+    const isLocal = /^localhost$|^127(\.[0-9]+){0,2}\.[0-9]+$|^\[::1?\]$|^local\.localhost$/.test(location.hostname) || location.protocol === 'file:'
+    const isAutomation = Boolean(window._phantom || window.__nightmare || window.navigator.webdriver || window.Cypress)
+    return isDebug || isLocal || isAutomation
+  }
+</script>
+
+<!-- plausible -->
+<script defer data-domain="hackmd.io" src="https://tracks.hackmd.io/js/script.js"></script>
+<script nonce="dc036a1b-7b30-4415-9366-cc8441b003ab">
+  window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments); }
+  const keyboardWhiteList = ['a', 'span', 'button']
+
+  function getTaggedEventAttributes (e) {
+    const eventAttrs = { name: null, props: {} }
+    if (!e || !e.classList) return eventAttrs
+    const psEvent = /plausible-event-(.+)(=|--)(.+)/
+    for (const className of [...e.classList]) {
+      const [, key, , val] = className.match(psEvent) || []
+      if (!key || !val) continue
+      const value = val.replace(/\+/g, ' ')
+      switch (key.toLowerCase()) {
+        case 'name':
+          eventAttrs.name = value
+          break
+        default:
+          eventAttrs.props[key] = value
+          break
+      }
+    }
+    return eventAttrs
+  }
+
+  function shouldIgnore () {
+    return window.__shouldIgnoreTracker() || window.localStorage.getItem('plausible_ignore') === 'true'
+  }
+
+  function handler (e) {
+    if (!window.plausible) return
+    if (!e.target || !('className' in e.target)) return
+    const ele = e.target
+
+    const eventAttrs = getTaggedEventAttributes(ele)
+    if (!eventAttrs.name) return
+    if (ele?.href) eventAttrs.props.url = ele.href
+
+    if (shouldIgnore()) {
+      if (window.debug) logDebugEventMsg(eventAttrs)
+      return
+    }
+    window.plausible(eventAttrs.name, { props: eventAttrs.props })
+  }
+
+  function logDebugEventMsg (eventAttrs) {
+    console.warn(
+      `Ignoring Event: "${eventAttrs.name}"`,
+      eventAttrs,
+    )
+  }
+
+  function keydownHandler (e) {
+    if (e.key !== 'Enter') return
+    if (e.target.nodeName.toLowerCase() === 'input') {
+      switch (e.target.type.toLowerCase()) {
+        case 'submit':
+        case 'button':
+        case 'reset':
+        case 'checkbox':
+        case 'radio':
+        case 'file':
+        case 'image':
+        case 'color':
+          break
+        default:
+          return
+      }
+    } else if (!keyboardWhiteList.includes(e.target.nodeName.toLowerCase())) {
+      return
+    }
+    handler(e)
+  }
+
+  document.addEventListener('mousedown', handler)
+  document.addEventListener('keydown', keydownHandler)
+</script>
+
+    
+<script nonce="dc036a1b-7b30-4415-9366-cc8441b003ab">
+  window.publishProps = JSON.parse(`{"isOwnerAnonymous":false,"isOwnedByTeam":false,"ownerInfo":{"name":"10%E8%80%81%E5%B8%AB","path":"10t","avatarUrl":"https%3A%2F%2Fuploads-public.hackmd.io%2Fupload_ccba2c2b1094bbf02ec3593fda204bae.png","description":null},"isPublished":false,"createTime":1794615131781,"updateTime":1794615308673,"vcsSyncMode":"github","vcsProviderName":"GitHub","canEdit":false,"hardBreaks":true,"onlyOwnerCanEdit":true,"isCommentEnabled":true,"likedCount":0,"isNotificationEnabled":true,"notificationType":"never","hasEmail":false,"canWriteComment":false,"viewCount":131,"markdown":"%23%20%E7%AC%AC%E5%9B%9B%E7%AF%80%20STOP%E9%BA%A5%E6%93%B1%E9%A8%99%EF%BC%81%E6%88%91%E6%99%BA%E5%95%86%E5%9C%A8%E7%B7%9A%20(%E6%95%99%E5%B8%AB%E7%89%88)%0A%0A%3A%3A%3Ainfo%0A%E5%AD%B8%E7%BF%92%E7%9B%AE%E6%A8%99%EF%BC%9A%0A1.%20%E8%83%BD%E5%A4%A0%E9%81%8B%E7%94%A8%E3%80%8C%E4%BB%A5%E5%9C%96%E6%90%9C%E5%9C%96%E3%80%8D%E5%8A%9F%E8%83%BD%E9%80%B2%E8%A1%8C%E6%9F%A5%E6%A0%B8%0A2.%20%E8%83%BD%E5%A4%A0%E9%81%8B%E7%94%A8GOOGLE%E6%99%BA%E6%85%A7%E9%8F%A1%E9%A0%AD%2B%E3%80%8C%E4%BB%A5%E5%9C%96%E6%90%9C%E5%9C%96%E3%80%8D%E5%8A%9F%E8%83%BD%E9%80%B2%E8%A1%8C%E6%9F%A5%E6%A0%B8%0A3.%20%E8%83%BD%E5%A4%A0%E4%BD%BF%E7%94%A8AI%E6%A8%A1%E5%BC%8F%E9%80%B2%E8%A1%8C%E6%9F%A5%E6%A0%B8%0A4.%20%E8%83%BD%E5%A4%A0%E4%BD%BF%E7%94%A8prompt%E6%8F%90%E5%8D%87%E6%9F%A5%E6%A0%B8%E7%9A%84%E6%BA%96%E7%A2%BA%E5%BA%A6%0A5.%20%E8%AA%8D%E8%AD%98%E5%85%B6%E5%AE%83%E6%9F%A5%E6%A0%B8%E5%B7%A5%E5%85%B7%0A%0A%3A%3A%3A%0A%0A%23%23%20%E4%BB%BB%E5%8B%99%E4%B8%80%20%E4%BB%A5%E5%9C%96%E6%90%9C%E5%9C%96%0AQ1%EF%BC%9A%E4%BD%BF%E7%94%A8GOOGLE%E4%BB%A5%E5%9C%96%E6%90%9C%E5%9C%96%E5%8A%9F%E8%83%BD%EF%BC%8C%E6%9F%A5%E7%9C%8B%E7%9C%8B%E9%80%99%E5%80%8B%E5%9C%B0%E9%BB%9E%E5%9C%A8%E5%93%AA%E8%A3%A1%EF%BC%9F%0A!%5B01.%E9%80%99%E6%98%AF%E5%93%AA%E8%A3%A1%5D(https%3A%2F%2Fhackmd.io%2F_uploads%2FSJuVacslGe.jpg)%0A%0A%23%23%20%E4%BB%BB%E5%8B%99%E4%BA%8C%20GOOGLE%20%E6%99%BA%E6%85%A7%E9%8F%A1%E9%A0%AD%2B%E4%BB%A5%E5%9C%96%E6%90%9C%E5%9C%96%0AQ2%EF%BC%9A%E6%8C%89%E5%8F%B3%E9%8D%B5%EF%BC%8C%E9%96%8B%E5%95%9FGOOGLE%E6%99%BA%E6%85%A7%E9%8F%A1%E9%A0%AD%E6%90%9C%E5%B0%8B%EF%BC%8C%E6%9F%A5%E7%9C%8B%E7%9C%8B%E9%80%99%E5%80%8B%E5%9C%B0%E9%BB%9E%E5%9C%A8%E5%93%AA%E8%A3%A1%EF%BC%9F%0A!%5B02.%E9%80%99%E6%98%AF%E5%93%AA%E8%A3%A1%5D(https%3A%2F%2Fhackmd.io%2F_uploads%2Frkz1Rqigzl.jpg)%0A%0AQ3%EF%BC%9A%E6%9F%A5%E7%9C%8B%E7%9C%8B%E9%80%99%E5%80%8B%E5%9C%B0%E9%BB%9E%E5%9C%A8%E5%93%AA%E8%A3%A1%EF%BC%9F%E7%84%B6%E5%BE%8C%E6%89%93%E9%96%8Bgoogle%20map%EF%BC%8C%E6%9F%A5%E7%9C%8B%E7%9C%8B%E9%9B%A2%E9%80%99%E6%99%AF%E9%BB%9E%E6%9C%80%E8%BF%91%E7%9A%84%E5%9C%8B%E4%B8%AD%E6%98%AF%E5%93%AA%E4%B8%80%E9%96%93%EF%BC%9F%0A!%5B03.%E6%88%91%E5%9C%A8%E5%93%AA%E6%95%99%E6%9B%B8%5D(https%3A%2F%2Fhackmd.io%2F_uploads%2FBkMkR9ixfx.jpg)%0A%0A%23%23%20%E4%BB%BB%E5%8B%99%E4%B8%89%20%E5%95%8FAI%0A!%5BAI%E6%A8%A1%E5%BC%8F%5D(https%3A%2F%2Fhackmd.io%2F_uploads%2FSkmCF6jxGl.jpg)%0AQ4.%E9%96%8B%E5%95%9F%E7%80%8F%E8%A6%BD%E5%99%A8%E7%9A%84AI%E6%A8%A1%E5%BC%8F%EF%BC%8C%E5%95%8F%E3%80%8C%E9%80%99%E5%BC%B5%E5%9C%96%E7%89%87%E6%98%AF%E7%9C%9F%E7%9A%84%E5%97%8E%3F%E9%82%84%E6%98%AFAI%E7%94%9F%E6%88%90%E7%9A%84%3F%E3%80%8D%0A!%5B04.%E9%80%99%E6%98%AF%E7%9C%9F%E7%9A%84%E5%97%8E%5D(https%3A%2F%2Fhackmd.io%2F_uploads%2FSkeW509ogGx.jpg)%0A%0AQ5-1.%E5%93%AA%E4%B8%80%E5%80%8B%E5%BB%BA%E7%AF%89%E7%89%A9%E6%98%AFAI%E7%94%9F%E5%9C%96%EF%BC%9F%0A%E5%9C%96A%EF%BC%9A%0A!%5BArt%20Nouveau%5D(https%3A%2F%2Fhackmd.io%2F_uploads%2FSkfGiMn2Gg.png)%0A%0A%0A%E5%9C%96B%EF%BC%9A%0A!%5B%E6%80%AA%E6%80%AA%E5%B1%8B02%5D(https%3A%2F%2Fhackmd.io%2F_uploads%2FBJi0YG22Me.jpg)%0A%0AQ5-2.%E5%93%AA%E4%B8%80%E5%BC%B5%E6%97%8B%E8%BD%89%E6%A8%93%E6%A2%AF%E6%98%AFAI%E7%94%9F%E5%9C%96%EF%BC%9F%0A%E5%9C%96A%EF%BC%9A%0A!%5B%E5%93%AA%E4%B8%80%E5%BC%B5%E6%98%AFAI%E7%94%9F%E5%9C%96(%E6%97%8B%E8%BD%89%E6%A8%93%E6%A2%AF)-A%5D(https%3A%2F%2Fhackmd.io%2F_uploads%2FBkjnljoeGe.jpg)%0A%0A%E5%9C%96B%EF%BC%9A%0A!%5B%E5%93%AA%E4%B8%80%E5%BC%B5%E6%98%AFAI%E7%94%9F%E5%9C%96(%E6%97%8B%E8%BD%89%E6%A8%93%E6%A2%AF)-B%5D(https%3A%2F%2Fhackmd.io%2F_uploads%2FBkxpliixfg.jpg)%0A%0A%E5%9C%96C%EF%BC%9A%0A!%5B%E5%93%AA%E4%B8%80%E5%BC%B5%E6%98%AFAI%E7%94%9F%E5%9C%96(%E6%97%8B%E8%BD%89%E6%A8%93%E6%A2%AF)-C%5D(https%3A%2F%2Fhackmd.io%2F_uploads%2FBySaesogGe.jpg)%0A%0A%23%23%20%E4%BB%BB%E5%8B%99%E5%9B%9B%20STOP%E6%9F%A5%E6%A0%B8%E6%8A%80%E5%B7%A7%E7%B7%B4%E7%BF%92%0A%0A%E7%B6%B2%E5%82%B3%E3%80%8C%E5%8F%AA%E6%9C%89%E4%B8%83%E5%80%8B%E5%90%8D%E5%AD%97%E7%9A%84%E6%B0%91%E6%97%8F%E3%80%8D%E6%95%85%E4%BA%8B%E5%85%A7%E5%AE%B9%EF%BC%9A%0A%60%60%60%0A%E9%9B%AA%E5%B7%B4%E4%BA%BA%E4%BF%A1%E4%BB%B0%E8%97%8F%E5%82%B3%E4%BD%9B%E6%95%99%EF%BC%8C%E7%9B%B8%E4%BF%A1%E4%B8%80%E9%80%B17%E5%A4%A9%E5%90%84%E6%9C%89%E4%B8%8D%E5%90%8C%E7%9A%84%E5%AE%88%E8%AD%B7%E7%A5%9E%EF%BC%8C%E5%9B%A0%E6%AD%A4%E9%83%BD%E4%BB%A5%E6%98%9F%E6%9C%9F%E5%B9%BE%E5%87%BA%E7%94%9F%E4%BE%86%E5%91%BD%E5%90%8D%E3%80%82%0A%E6%98%9F%E6%9C%9F%E5%A4%A9%E5%87%BA%E7%94%9F%E5%B0%B1%E5%8F%AB%E5%A4%AA%E9%99%BD%EF%BC%8C%E6%98%9F%E6%9C%9F%E4%BA%8C%E5%87%BA%E7%94%9F%E5%B0%B1%E5%8F%AB%E6%9C%88%E4%BA%AE%E3%80%82%E4%B8%80%E5%80%8B%E6%9D%91%E8%8E%8A%E8%A3%A1%E7%B8%BD%E5%85%B1%E5%B0%B1%E5%8F%AA%E6%9C%897%E5%80%8B%E5%90%8D%E5%AD%97%EF%BC%8C%E5%A6%82%E6%9E%9C%E6%9C%89%E4%B8%80%E5%80%8B%E5%AA%BD%E5%AA%BD%E5%8F%AB%E3%80%8C%E5%A4%AA%E9%99%BD%E5%95%8A~%E5%9B%9E%E5%AE%B6%E5%90%83%E9%A3%AF%E5%95%A6%EF%BC%81%E3%80%8D%E5%B0%B1%E6%9C%83%E6%9C%891%2F7%E7%9A%84%E5%B0%8F%E5%AD%A9%E8%B7%91%E5%9B%9E%E5%AE%B6%E5%8E%BB%E4%BA%86%E3%80%82%0A%E9%80%99%E6%A8%A3%E6%80%8E%E9%BA%BC%E6%90%9E%E5%BE%97%E6%B8%85%E6%A5%9A%EF%BC%8C%E5%80%92%E5%BA%95%E6%98%AF%E5%9C%A8%E5%8F%AB%E8%AA%B0%E5%95%A6%F0%9F%A4%A3%F0%9F%A4%A3%F0%9F%A4%A3%0A%E6%98%9F%E6%9C%9F%E5%A4%A9%E3%80%8CNyima%E3%80%8D%EF%BC%8C%E6%9C%89%E3%80%8C%E5%A4%AA%E9%99%BD%E3%80%8D%E7%9A%84%E6%84%8F%E6%80%9D%E3%80%82%0A%E6%98%9F%E6%9C%9F%E4%B8%80%E3%80%8CDawa%E3%80%8D%EF%BC%8C%E6%9C%89%E3%80%8C%E6%9C%88%E4%BA%AE%E3%80%8D%E7%9A%84%E6%84%8F%E6%80%9D%E3%80%82%0A%E6%98%9F%E6%9C%9F%E4%BA%8C%E3%80%8CMingma%E3%80%8D%EF%BC%8C%E6%9C%89%E3%80%8C%E7%81%AB%E6%98%9F%E3%80%8D%E7%9A%84%E6%84%8F%E6%80%9D%E3%80%82%0A%E6%98%9F%E6%9C%9F%E4%B8%89%E3%80%8CLhakpa%E3%80%8D%EF%BC%8C%E6%9C%89%E3%80%8C%E6%B0%B4%E6%98%9F%E3%80%8D%E7%9A%84%E6%84%8F%E6%80%9D%E3%80%82%0A%E6%98%9F%E6%9C%9F%E5%9B%9B%E3%80%8CFura%E3%80%8D%E3%80%81%E3%80%8CPhurba%E3%80%8D%E3%80%81%E3%80%8CFurba%E3%80%8D%EF%BC%8C%E6%9C%89%E3%80%8C%E6%9C%A8%E6%98%9F%E3%80%8D%E7%9A%84%E6%84%8F%E6%80%9D%E3%80%82%0A%E6%98%9F%E6%9C%9F%E4%BA%94%E3%80%8CPasang%E3%80%8D%EF%BC%8C%E6%9C%89%E3%80%8C%E9%87%91%E6%98%9F%E3%80%8D%E7%9A%84%E6%84%8F%E6%80%9D%E3%80%82%0A%E6%98%9F%E6%9C%9F%E5%85%AD%E3%80%8CPemba%E3%80%8D%EF%BC%8C%E6%9C%89%E3%80%8C%E5%9C%9F%E6%98%9F%E3%80%8D%E7%9A%84%E6%84%8F%E6%80%9D%E3%80%82%0A%60%60%60%0A%0A%0A%23%23%20%E4%BB%BB%E5%8B%99%E4%BA%94%20%E6%93%85%E7%94%A8%E6%9F%A5%E6%A0%B8%E6%8C%87%E4%BB%A4%EF%BC%8C%E6%89%93%E7%A0%B4AI%E5%B9%BB%E8%A6%BA%0AAI%E5%B9%BB%E8%A6%BA%E7%A4%BA%E4%BE%8B%0A%3A%3A%3Aspoiler%0A%60%60%60%0A%E8%AB%8B%E7%94%A8%20micro%3Abit%20MicroPython%20%E7%9A%84%20display.scroll_vertical()%20%E5%AF%AB%E4%B8%80%E6%AE%B5%E8%AE%93%E6%96%87%E5%AD%97%E7%94%B1%E4%B8%8B%E5%BE%80%E4%B8%8A%E6%8D%B2%E5%8B%95%E7%9A%84%E7%A8%8B%E5%BC%8F%2C%E4%B8%A6%E8%AA%AA%E6%98%8E%E5%8F%83%E6%95%B8%E3%80%82%0A%60%60%60%0A%0Ascroll_vertical()%20%E6%98%AF%E6%88%91%E8%87%AA%E5%B7%B1%E7%B7%A8%E7%9A%84%2C%E7%9B%AE%E5%89%8D%E5%AE%98%E6%96%B9%E4%B8%A6%E6%B2%92%E6%9C%89%E9%80%99%E5%80%8B%E5%87%BD%E5%BC%8F%2C%E8%AB%8B%E4%BD%A0%E5%85%88%E6%9F%A5%E4%B8%80%E4%B8%8B%E5%AE%98%E6%96%B9%E6%96%87%E4%BB%B6%E7%A2%BA%E8%AA%8D%E3%80%82AI%20%E5%BE%88%E5%AE%B9%E6%98%93%E7%85%9E%E6%9C%89%E5%85%B6%E4%BA%8B%E5%9C%B0%E5%AF%AB%E5%87%BA%E7%A8%8B%E5%BC%8F%E5%92%8C%E5%8F%83%E6%95%B8%E8%AA%AA%E6%98%8E%E3%80%82%E8%80%81%E5%B8%AB%E8%B2%BC%E9%80%B2%E7%B7%A8%E8%BC%AF%E5%99%A8%E4%B8%80%E5%9F%B7%E8%A1%8C%E5%B0%B1%E5%A0%B1%E9%8C%AF%2C%E6%9F%A5%E6%A0%B8%E7%B5%90%E6%9E%9C%E4%B8%80%E7%9B%AE%E4%BA%86%E7%84%B6%E3%80%82%0A%0A%E8%8B%A5AI%E7%94%9F%E6%88%90%E4%BA%86%E7%A8%8B%E5%BC%8F%E7%A2%BC%EF%BC%8C%E8%AB%8B%E8%B2%BC%E5%9C%A8%5B%E6%A8%A1%E6%93%AC%E5%99%A8%5D(https%3A%2F%2Fpython.microbit.org%2Fv%2F3)%E4%B8%8A%E5%9F%B7%E8%A1%8C%E7%9C%8B%E7%9C%8B%E3%80%82%0A%3A%3A%3A%0A%0AAI%E5%8F%AF%E8%83%BD%E7%94%A2%E7%94%9F%E5%B9%BB%E8%A6%BA%E7%9A%84%E5%A0%B4%E6%99%AF%EF%BC%9A%E5%86%B7%E9%96%80%E3%80%81%E5%9C%A8%E5%9C%B0%E3%80%81%E8%A6%81%E6%B1%82%E7%B2%BE%E7%A2%BA%E7%B4%B0%E7%AF%80..%E6%9B%B4%E5%AE%B9%E6%98%93%E5%87%BA%E9%8C%AF%0A%3A%3A%3Aspoiler%0A%23%23%23%20%E4%BE%8B%E5%AD%90%E4%BA%8C%3A%E4%B8%8D%E5%AD%98%E5%9C%A8%E7%9A%84%E6%95%99%E6%9D%90%E6%88%96%E6%8C%87%E5%BC%95%0A%E8%AB%8B%E6%91%98%E8%A6%81%E5%9C%8B%E6%95%99%E9%99%A2%E3%80%8A%E5%9C%8B%E4%B8%AD%E7%94%9F%E6%B4%BB%E7%A7%91%E6%8A%80%20AI%20%E8%9E%8D%E5%85%A5%E6%95%99%E5%AD%B8%E6%89%8B%E5%86%8A(2023)%E3%80%8B%E7%AC%AC%E4%BA%8C%E7%AB%A0%E7%9A%84%E6%95%99%E5%AD%B8%E6%B4%BB%E5%8B%95%2C%E4%B8%A6%E5%88%97%E5%87%BA%E9%A0%81%E7%A2%BC%E3%80%82%0A%0A%E9%80%99%E4%BB%BD%E6%89%8B%E5%86%8A%E6%98%AF%E6%88%91%E8%99%9B%E6%A7%8B%E7%9A%84%E3%80%82%E5%8F%AF%E4%BB%A5%E9%A0%86%E4%BE%BF%E8%AE%93%E8%80%81%E5%B8%AB%E6%AF%94%E8%BC%83%E3%80%8C%E6%90%9C%E5%B0%8B%E5%8A%9F%E8%83%BD%E9%96%8B%E5%95%9F%E3%80%8D%E5%92%8C%E3%80%8C%E9%97%9C%E9%96%89%E3%80%8D%E6%99%82%2CAI%20%E7%9A%84%E5%8F%8D%E6%87%89%E6%9C%89%E4%BB%80%E9%BA%BC%E4%B8%8D%E5%90%8C%E3%80%82%0A%0A%23%23%23%20%E4%BE%8B%E5%AD%90%E4%B8%89%3A%E9%8C%AF%E8%AA%A4%E5%89%8D%E6%8F%90%0A%E6%95%99%E8%82%B2%E9%83%A8%E8%A6%8F%E5%AE%9A%E5%9C%8B%E5%B0%8F%E4%B8%89%E5%B9%B4%E7%B4%9A%E8%B5%B7%E5%BF%85%E9%A0%88%E5%AD%B8%E6%9C%83%20Python%2C%E4%BE%9D%E6%93%9A%E6%98%AF%E5%93%AA%E4%B8%80%E4%BB%BD%E5%85%AC%E6%96%87%3F%0A%0A%E6%88%91%E7%9A%84%E7%90%86%E8%A7%A3%E6%98%AF%E8%AA%B2%E7%B6%B1%E4%B8%A6%E6%B2%92%E6%9C%89%E9%80%99%E6%A8%A3%E7%9A%84%E8%A6%8F%E5%AE%9A%2C%E4%BD%86%E8%AB%8B%E4%BD%A0%E8%87%AA%E8%A1%8C%E5%88%B0%E6%95%99%E8%82%B2%E9%83%A8%E6%88%96%E5%9C%8B%E6%95%99%E9%99%A2%E7%B6%B2%E7%AB%99%E7%A2%BA%E8%AA%8D%E3%80%82%E7%9C%8B%20AI%20%E6%9C%83%E7%B3%BE%E6%AD%A3%E5%89%8D%E6%8F%90%2C%E9%82%84%E6%98%AF%E9%A0%86%E8%91%97%E7%B7%A8%E5%87%BA%E5%85%AC%E6%96%87%E5%AD%97%E8%99%9F%E3%80%82%0A%0A%23%23%23%20%E4%BE%8B%E5%AD%90%E5%9B%9B%3A%E5%86%B7%E9%96%80%E7%89%88%E6%9C%AC%E7%B4%B0%E7%AF%80%0Amicro%3Abit%20V1%20%E5%92%8C%20V2%20%E5%9C%A8%20MakeCode%20%E4%B8%AD%2C%E5%93%AA%E4%BA%9B%E7%A9%8D%E6%9C%A8%E5%8F%AA%E6%9C%89%20V2%20%E8%83%BD%E7%94%A8%3F%E8%AB%8B%E5%AE%8C%E6%95%B4%E5%88%97%E5%87%BA%E3%80%82%0A%0A%E8%A6%81%E6%B1%82%E3%80%8C%E5%AE%8C%E6%95%B4%E5%88%97%E5%87%BA%E3%80%8D%E6%98%AF%E9%97%9C%E9%8D%B5%2CAI%20%E5%B8%B8%E5%B8%B8%E6%BC%8F%E5%88%97%E6%88%96%E5%A4%9A%E5%88%97%E3%80%82%E8%80%81%E5%B8%AB%E5%8F%AF%E4%BB%A5%E5%B0%8D%E7%85%A7%20MakeCode%20%E5%AE%98%E6%96%B9%E7%B6%B2%E7%AB%99%E9%A9%97%E8%AD%89%2C%E9%80%99%E5%80%8B%E4%BE%8B%E5%AD%90%E6%AF%94%E8%BC%83%E9%81%A9%E5%90%88%E5%B1%95%E7%A4%BA%E3%80%8C%E9%83%A8%E5%88%86%E6%AD%A3%E7%A2%BA%E3%80%81%E9%83%A8%E5%88%86%E9%8C%AF%E8%AA%A4%E3%80%8D%E7%9A%84%E6%83%85%E6%B3%81%E3%80%82%0A%3A%3A%3A%0A%0A%23%23%23%20%E8%A8%AD%E5%AE%9A%E3%80%8C%E4%BA%8B%E5%AF%A6%E6%9F%A5%E6%A0%B8%E5%93%A1%E3%80%8D%E8%A7%92%E8%89%B2%0A%3E%20%E6%8F%90%E7%A4%BA%E8%A9%9E%E7%AF%84%E4%BE%8B%EF%BC%9A%E3%80%8C%E4%BD%A0%E7%8F%BE%E5%9C%A8%E6%98%AF%E4%B8%80%E5%90%8D%E5%B0%88%E6%A5%AD%E7%9A%84%E4%BA%8B%E5%AF%A6%E6%9F%A5%E6%A0%B8%E5%93%A1%EF%BC%8C%E8%AB%8B%E8%AA%BF%E6%9F%A5%E4%BB%A5%E4%B8%8B%E9%99%B3%E8%BF%B0%EF%BC%8C%E5%88%97%E5%87%BA%E6%94%AF%E6%8C%81%0A%3E%20%E8%88%87%E5%8F%8D%E5%B0%8D%E7%9A%84%E8%AD%89%E6%93%9A%E3%80%82%E3%80%8D%0A%0A%0A%23%23%23%20%E8%A6%81%E6%B1%82%E3%80%8C%E6%8C%89%E9%83%A8%E5%B0%B1%E7%8F%AD%E3%80%8D%EF%BC%88Step-by-Step%EF%BC%89%E3%80%81%E5%88%97%E5%87%BA%E3%80%8C%E5%8F%83%E8%80%83%E7%B6%B2%E7%AB%99%E6%88%96%E6%96%87%E4%BB%B6%E3%80%8D%E9%80%B2%E8%A1%8C%E6%8E%A8%E7%90%86%0A%3E%20%E6%8F%90%E7%A4%BA%E8%A9%9E%E7%AF%84%E4%BE%8B%EF%BC%9A%E3%80%8C%E8%AB%8B%E4%BE%9D%E5%BA%8F%E9%80%B2%E8%A1%8C%3A%0A%3E%201.%20%E5%88%97%E5%87%BA%E5%85%A7%E5%AE%B9%E4%B8%AD%E7%9A%84%E9%97%9C%E9%8D%B5%E4%BA%8B%E5%AF%A6(%E4%BA%BA%E4%BA%8B%E6%99%82%E5%9C%B0%E7%89%A9%E3%80%81%E6%95%B8%E5%AD%97%E3%80%81%E5%87%BD%E5%BC%8F%E5%90%8D%E7%A8%B1%E3%80%81%E6%96%87%E4%BB%B6%E5%90%8D%E7%A8%B1%E3%80%81%E6%B3%95%E6%A2%9D%E7%AD%89)%0A%3E%202.%20%E5%84%AA%E5%85%88%E6%90%9C%E5%B0%8B%E6%AC%8A%E5%A8%81%E4%BE%86%E6%BA%90(%E6%94%BF%E5%BA%9C%E6%A9%9F%E9%97%9C%E3%80%81%E5%AD%B8%E8%A1%93%E6%A9%9F%E6%A7%8B%E3%80%81%E5%AE%98%E6%96%B9%E6%96%87%E4%BB%B6)%0A%3E%203.%20%E6%AF%94%E5%B0%8D%E9%99%B3%E8%BF%B0%E8%88%87%E4%BE%86%E6%BA%90%E4%B9%8B%E9%96%93%E7%9A%84%E5%B7%AE%E7%95%B0%0A%3E%204.%20%E7%B5%A6%E5%87%BA%E7%B5%90%E8%AB%96%E3%80%8D%0A%0A%0A%23%23%23%20%E5%85%B6%E5%AE%83%E8%A6%8F%E5%89%87%0A%3E%20%E6%8F%90%E7%A4%BA%E8%A9%9E%E7%AF%84%E4%BE%8B%EF%BC%9A%E3%80%8C%E8%A6%8F%E5%89%87%3A%20%E6%AF%8F%E5%80%8B%E9%99%B3%E8%BF%B0%E8%AB%8B%E6%A8%99%E7%A4%BA%E7%B5%90%E8%AB%96%3A%E3%80%8C%E6%9C%89%E5%8F%AF%E9%9D%A0%E4%BE%86%E6%BA%90%E6%94%AF%E6%8C%81%E3%80%8D%E3%80%81%E3%80%8C%E8%88%87%E4%BE%86%E6%BA%90%E4%B8%8D%E7%AC%A6%E3%80%8D%E6%88%96%E3%80%8C%E6%9F%A5%E7%84%A1%E8%B3%87%E6%96%99%E3%80%8D%0A%3E%20-%20%E6%89%BE%E4%B8%8D%E5%88%B0%E5%8F%AF%E9%9D%A0%E4%BE%86%E6%BA%90%E6%99%82%2C%E8%AB%8B%E7%9B%B4%E6%8E%A5%E5%AF%AB%E3%80%8C%E6%9F%A5%E7%84%A1%E8%B3%87%E6%96%99%E3%80%8D%2C%E4%B8%8D%E8%A6%81%E6%8E%A8%E6%B8%AC%2C%E4%B9%9F%E4%B8%8D%E8%A6%81%E7%B7%A8%E9%80%A0%E4%BE%86%E6%BA%90%E6%88%96%E9%80%A3%E7%B5%90%0A%3E%20-%20%E5%8F%AA%E6%8F%90%E4%BE%9B%E4%BD%A0%E7%A2%BA%E5%AF%A6%E6%90%9C%E5%B0%8B%E5%88%B0%E7%9A%84%E9%80%A3%E7%B5%90%2C%E4%B8%A6%E8%AA%AA%E6%98%8E%E8%A9%B2%E9%80%A3%E7%B5%90%E7%9A%84%E5%93%AA%E4%B8%80%E9%83%A8%E5%88%86%E6%94%AF%E6%8C%81%E6%88%96%E5%8F%8D%E9%A7%81%E9%80%99%E5%80%8B%E9%99%B3%E8%BF%B0%0A%3E%20-%20%E8%8B%A5%E4%B8%8D%E5%90%8C%E4%BE%86%E6%BA%90%E8%AA%AA%E6%B3%95%E8%A1%9D%E7%AA%81%2C%E8%AB%8B%E5%88%86%E5%88%A5%E8%AA%AA%E6%98%8E%E5%90%84%E6%96%B9%E8%A7%80%E9%BB%9E%0A%3E%20-%20%E8%8B%A5%E6%B6%89%E5%8F%8A%E7%A8%8B%E5%BC%8F%E7%A2%BC%E6%88%96%E6%93%8D%E4%BD%9C%E6%AD%A5%E9%A9%9F%2C%E8%AB%8B%E6%A8%99%E7%A4%BA%E4%BD%A0%E7%84%A1%E6%B3%95%E7%A2%BA%E5%AE%9A%E7%9A%84%E9%83%A8%E5%88%86%2C%E4%B8%A6%E6%8C%87%E5%87%BA%E6%88%91%E6%87%89%E8%A9%B2%E6%9F%A5%E5%93%AA%E4%BB%BD%E5%AE%98%E6%96%B9%E6%96%87%E4%BB%B6%0A%3E%20-%20%E6%9C%80%E5%BE%8C%E8%AB%8B%E5%88%97%E5%87%BA%E3%80%8C%E6%88%91%E6%87%89%E8%A9%B2%E8%87%AA%E5%B7%B1%E5%86%8D%E7%A2%BA%E8%AA%8D%E7%9A%84%E5%9C%B0%E6%96%B9%E3%80%8D%0A%0A%3A%3A%3Asuccess%0A%E5%8F%AF%E7%9B%B4%E6%8E%A5%E8%A4%87%E8%A3%BD%E4%BB%A5%E4%B8%8B%E5%AE%8C%E6%95%B4%E6%9F%A5%E6%A0%B8%E6%8C%87%E4%BB%A4%E8%AB%8BAI%E9%80%B2%E8%A1%8C%E6%9F%A5%E6%A0%B8%EF%BC%9A%0A%60%60%60%0A%E4%BD%A0%E7%8F%BE%E5%9C%A8%E6%98%AF%E4%B8%80%E5%90%8D%E5%9A%B4%E8%AC%B9%E7%9A%84%E4%BA%8B%E5%AF%A6%E6%9F%A5%E6%A0%B8%E5%93%A1%E3%80%82%E8%AB%8B%E6%9F%A5%E6%A0%B8%E6%88%91%E8%B2%BC%E4%B8%8A%E7%9A%84%E5%85%A7%E5%AE%B9%2C%E4%B8%A6%E9%80%90%E5%8F%A5%E6%8B%86%E6%88%90%E5%96%AE%E4%B8%80%E9%99%B3%E8%BF%B0%2C%E5%88%86%E5%88%A5%E6%9F%A5%E8%AD%89%E3%80%82%0A%0A%E8%AB%8B%E4%BE%9D%E5%BA%8F%E9%80%B2%E8%A1%8C%3A%0A1.%20%E5%88%97%E5%87%BA%E5%85%A7%E5%AE%B9%E4%B8%AD%E7%9A%84%E9%97%9C%E9%8D%B5%E4%BA%8B%E5%AF%A6(%E4%BA%BA%E4%BA%8B%E6%99%82%E5%9C%B0%E7%89%A9%E3%80%81%E6%95%B8%E5%AD%97%E3%80%81%E5%87%BD%E5%BC%8F%E5%90%8D%E7%A8%B1%E3%80%81%E6%96%87%E4%BB%B6%E5%90%8D%E7%A8%B1%E3%80%81%E6%B3%95%E6%A2%9D%E7%AD%89)%0A2.%20%E5%84%AA%E5%85%88%E6%90%9C%E5%B0%8B%E6%AC%8A%E5%A8%81%E4%BE%86%E6%BA%90(%E6%94%BF%E5%BA%9C%E6%A9%9F%E9%97%9C%E3%80%81%E5%AD%B8%E8%A1%93%E6%A9%9F%E6%A7%8B%E3%80%81%E5%AE%98%E6%96%B9%E6%96%87%E4%BB%B6)%0A3.%20%E6%AF%94%E5%B0%8D%E9%99%B3%E8%BF%B0%E8%88%87%E4%BE%86%E6%BA%90%E4%B9%8B%E9%96%93%E7%9A%84%E5%B7%AE%E7%95%B0%0A4.%20%E7%B5%A6%E5%87%BA%E7%B5%90%E8%AB%96%0A%0A%E8%A6%8F%E5%89%87%3A%0A-%20%E6%AF%8F%E5%80%8B%E9%99%B3%E8%BF%B0%E8%AB%8B%E6%A8%99%E7%A4%BA%E7%B5%90%E8%AB%96%3A%E3%80%8C%E6%9C%89%E5%8F%AF%E9%9D%A0%E4%BE%86%E6%BA%90%E6%94%AF%E6%8C%81%E3%80%8D%E3%80%81%E3%80%8C%E8%88%87%E4%BE%86%E6%BA%90%E4%B8%8D%E7%AC%A6%E3%80%8D%E6%88%96%E3%80%8C%E6%9F%A5%E7%84%A1%E8%B3%87%E6%96%99%E3%80%8D%0A-%20%E6%89%BE%E4%B8%8D%E5%88%B0%E5%8F%AF%E9%9D%A0%E4%BE%86%E6%BA%90%E6%99%82%2C%E8%AB%8B%E7%9B%B4%E6%8E%A5%E5%AF%AB%E3%80%8C%E6%9F%A5%E7%84%A1%E8%B3%87%E6%96%99%E3%80%8D%2C%E4%B8%8D%E8%A6%81%E6%8E%A8%E6%B8%AC%2C%E4%B9%9F%E4%B8%8D%E8%A6%81%E7%B7%A8%E9%80%A0%E4%BE%86%E6%BA%90%E6%88%96%E9%80%A3%E7%B5%90%0A-%20%E5%8F%AA%E6%8F%90%E4%BE%9B%E4%BD%A0%E7%A2%BA%E5%AF%A6%E6%90%9C%E5%B0%8B%E5%88%B0%E7%9A%84%E9%80%A3%E7%B5%90%2C%E4%B8%A6%E8%AA%AA%E6%98%8E%E8%A9%B2%E9%80%A3%E7%B5%90%E7%9A%84%E5%93%AA%E4%B8%80%E9%83%A8%E5%88%86%E6%94%AF%E6%8C%81%E6%88%96%E5%8F%8D%E9%A7%81%E9%80%99%E5%80%8B%E9%99%B3%E8%BF%B0%0A-%20%E8%8B%A5%E4%B8%8D%E5%90%8C%E4%BE%86%E6%BA%90%E8%AA%AA%E6%B3%95%E8%A1%9D%E7%AA%81%2C%E8%AB%8B%E5%88%86%E5%88%A5%E8%AA%AA%E6%98%8E%E5%90%84%E6%96%B9%E8%A7%80%E9%BB%9E%0A-%20%E8%8B%A5%E6%B6%89%E5%8F%8A%E7%A8%8B%E5%BC%8F%E7%A2%BC%E6%88%96%E6%93%8D%E4%BD%9C%E6%AD%A5%E9%A9%9F%2C%E8%AB%8B%E6%A8%99%E7%A4%BA%E4%BD%A0%E7%84%A1%E6%B3%95%E7%A2%BA%E5%AE%9A%E7%9A%84%E9%83%A8%E5%88%86%2C%E4%B8%A6%E6%8C%87%E5%87%BA%E6%88%91%E6%87%89%E8%A9%B2%E6%9F%A5%E5%93%AA%E4%BB%BD%E5%AE%98%E6%96%B9%E6%96%87%E4%BB%B6%0A-%20%E6%9C%80%E5%BE%8C%E8%AB%8B%E5%88%97%E5%87%BA%E3%80%8C%E6%88%91%E6%87%89%E8%A9%B2%E8%87%AA%E5%B7%B1%E5%86%8D%E7%A2%BA%E8%AA%8D%E7%9A%84%E5%9C%B0%E6%96%B9%E3%80%8D%0A%60%60%60%0A%3A%3A%3A%0A%0AQ6.%E8%A8%8A%E6%81%AF%E6%9F%A5%E6%A0%B8%E5%BD%B1%E7%89%87%0A%60%E5%82%B3%E8%A8%80%EF%BC%9A%E3%80%8C%E4%BC%8A%E6%9C%97%E8%A5%B2%E6%93%8A%E4%BA%86%E4%BD%8D%E6%96%BC%E6%9D%9C%E6%8B%9C%E7%9A%84%E7%BE%8E%E5%9C%8B%E4%B8%AD%E5%A4%AE%E6%83%85%E5%A0%B1%E5%B1%80%E7%B8%BD%E9%83%A8%2C%E7%9B%B8%E9%97%9C%E7%95%AB%E9%9D%A2%E5%B7%B2%E7%B6%93%E6%9B%9D%E5%85%89%EF%BC%8C%E9%98%BF%E8%81%AF%E9%85%8B%E6%AD%A3%E5%9C%A8%E9%80%AE%E6%8D%95%E9%82%A3%E4%BA%9B%E6%B4%A9%E6%BC%8F%E5%BD%B1%E7%89%87%E7%9A%84%E4%BA%BA%E3%80%82%E4%BD%86%E4%BB%96%E5%80%91%E7%84%A1%E6%B3%95%E6%8E%A9%E8%93%8B%E9%80%99%E4%BB%B6%E4%BA%8B%E3%80%82%E3%80%8D%60%0A%5B%E5%BD%B1%E7%89%87%E9%80%A3%E7%B5%90%5D(https%3A%2F%2Fdrive.google.com%2Ffile%2Fd%2F1ZKmehYpzDrDYaT3lP0a3UCJS81qZVB5g%2Fview%3Fusp%3Dsharing)%0A%0A%23%23%20%E4%BB%BB%E5%8B%99%E5%85%AD%20%E6%A8%A1%E6%93%AC%E6%83%85%E5%A2%83%E6%9F%A5%E6%A0%B8%E9%81%8A%E6%88%B2%0A%5B!%5B%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202026-11-14%20081326%5D(https%3A%2F%2Fhackmd.io%2F_uploads%2FrJ1Aw7H0Ml.png)%5D(https%3A%2F%2Feurekalea.github.io%2Fhtml%2Fcase072.html)%0A%0A%0A%23%23%20%E8%A3%9C%E5%85%85%E8%B3%87%E6%96%99%0A-%20%E8%A9%90%E9%A8%99%E7%B6%B2%E5%9D%80%E5%B9%AB%E4%BD%A0%E6%9F%A5%20https%3A%2F%2Fcheck.mygopen.com%2F%20(%5B%E6%95%99%E5%AD%B8%E5%BD%B1%E7%89%87%5D(https%3A%2F%2Fwww.instagram.com%2Freel%2FDddgm8yyamk%2F))%0A-%20%5BLINE%20%E5%AE%98%E6%96%B9%E6%A9%9F%E5%99%A8%E4%BA%BA%5D(https%3A%2F%2Fline.me%2FR%2Fti%2Fp%2F%2540mygopen)%20(%5B%E4%BD%BF%E7%94%A8%E6%95%99%E5%AD%B8%5D(https%3A%2F%2Fwww.mygopen.com%2Fp%2Fblog-page_28.html))%0A-%20%5BGoogle%20Fact%20Check%20Tools%5D(https%3A%2F%2Ftoolbox.google.com%2Ffactcheck%2Fexplorer%2Fsearch%2Flist%3Arecent%3Bhl%3Dzh)%0A-%20%5BHIVE%20Moderation%5D(https%3A%2F%2Fhivemoderation.com%2Fai-generated-content-detection)%EF%BC%9A%E4%B8%8A%E5%82%B3%E5%9C%96%E5%83%8F%E3%80%81%E8%A6%96%E8%A8%8A%E6%88%96%E9%9F%B3%E9%A0%BB%EF%BC%8C%E9%80%B2%E8%A1%8C%E9%80%90%E5%B9%80%20AI%20%E7%94%9F%E6%88%90%E5%92%8C%E6%B7%B1%E5%BA%A6%E5%81%BD%E9%80%A0%E6%AA%A2%E6%B8%AC%EF%BC%8C%E4%B8%A6%E7%B5%A6%E5%87%BA%E6%A9%9F%E7%8E%87%E8%A9%95%E5%88%86%E3%80%82%0A-%20%5B%E5%85%AC%E8%A6%96%E5%90%9B%E7%AB%B9%E7%9A%84%E5%AA%92%E9%AB%94%E7%99%BD%E5%90%8D%E5%96%AE%5D(https%3A%2F%2Fandrewintw.github.io%2Ftaiwan-media-whitelist%2F)%0A%0A%3A%3A%3Asuccess%0A%3Abulb%3A%E4%B8%8D%E6%98%AF%E4%BB%80%E9%BA%BC%E9%83%BD%E8%A6%81%E6%9F%A5%EF%BC%81%E6%83%B3%E8%BD%89%E5%82%B3%20%2B%20%E9%AB%98%E9%A2%A8%E9%9A%AA-%3E%E5%BF%85%E9%A0%88%E5%85%88%E6%9F%A5%E8%AD%89%0A%3A%3A%3A%0A%0A!%5B%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202026-06-02%20112905%5D(https%3A%2F%2Fhackmd.io%2F_uploads%2FSJOS0aixfg.png)%0A%0A%0A%0A%3Cstyle%3E%0A%2F*%20Spoiler%20%E5%8D%80%E5%A1%8A%20*%2F%0A.markdown-body%20details%20%7B%0A%20%20background-color%3A%20%23f7f7f8%20!important%3B%0A%20%20color%3A%20%23222222%20!important%3B%0A%20%20border-radius%3A%208px%3B%0A%20%20padding%3A%208px%2012px%3B%0A%7D%0A%0A%2F*%20%E6%96%87%E5%AD%97%E4%BF%9D%E6%8C%81%E6%B8%85%E6%99%B0%20*%2F%0A.markdown-body%20details%20*%20%7B%0A%20%20opacity%3A%201%20!important%3B%0A%7D%0A%0A%2F*%20Spoiler%20%E6%A8%99%E9%A1%8C%20*%2F%0A.markdown-body%20details%20summary%20%7B%0A%20%20color%3A%20%23111111%20!important%3B%0A%20%20font-weight%3A%20600%3B%0A%20%20cursor%3A%20pointer%3B%0A%7D%0A%0A%2F*%20%E4%B8%80%E8%88%AC%E5%85%A7%E6%96%87%20*%2F%0A.markdown-body%20details%20p%2C%0A.markdown-body%20details%20li%20%7B%0A%20%20color%3A%20%23222222%20!important%3B%0A%7D%0A%0A%2F*%20%E8%B6%85%E9%80%A3%E7%B5%90%EF%BC%9A%E8%97%8D%E5%AD%97%20%2B%20%E5%BA%95%E7%B7%9A%20*%2F%0A.markdown-body%20details%20a%2C%0A.markdown-body%20details%20a%3Alink%2C%0A.markdown-body%20details%20a%3Avisited%2C%0A.markdown-body%20details%20p%20a%2C%0A.markdown-body%20details%20li%20a%20%7B%0A%20%20color%3A%20%230969da%20!important%3B%0A%20%20-webkit-text-fill-color%3A%20%230969da%20!important%3B%0A%20%20text-decoration%3A%20underline%20!important%3B%0A%20%20text-underline-offset%3A%202px%3B%0A%7D%0A%0A%2F*%20%E6%BB%91%E9%BC%A0%E7%A7%BB%E9%81%8E%E8%B6%85%E9%80%A3%E7%B5%90%20*%2F%0A.markdown-body%20details%20a%3Ahover%20%7B%0A%20%20color%3A%20%230550ae%20!important%3B%0A%20%20-webkit-text-fill-color%3A%20%230550ae%20!important%3B%0A%20%20text-decoration%3A%20underline%20!important%3B%0A%7D%0A%3C%2Fstyle%3E%0A%0A","viewMode":"publish","unreadState":[],"isOwner":false,"isTeamMember":false,"isSignIn":false,"isLiked":false,"isBookmarked":false,"publishType":"view","commentCount":0,"isNotesRecommendationsEnabled":true,"lastChangeUserInfo":{"name":"10%E8%80%81%E5%B8%AB","path":"10t","avatarUrl":"https%3A%2F%2Fuploads-public.hackmd.io%2Fupload_ccba2c2b1094bbf02ec3593fda204bae.png"}}`);
+  window.owner = "d7f07ed5-618e-46d6-a93f-03dd31ab42b6";
+  (function () {
+    const decodeStringProps = (props) => {
+      for (const key in props) {
+        if (typeof props[key] === 'string') {
+          props[key] = decodeURIComponent(props[key])
+        } else if (typeof props[key] === 'object') {
+          decodeStringProps(props[key])
+        }
+      }
+    }
+    decodeStringProps(window.publishProps)
+  })()
+</script>
+
+
+    <script src="https://tally.so/widgets/embed.js"></script>
+
+    
+</head>
+
+<body class="ui-pretty-page" style="display:none;">
+    <div id="toasts-container" class="toasts-container z-[2000]"></div>
+    <div id="publish-page"># 第四節 STOP麥擱騙！我智商在線 (教師版)
+
+:::info
+學習目標：
+1. 能夠運用「以圖搜圖」功能進行查核
+2. 能夠運用GOOGLE智慧鏡頭+「以圖搜圖」功能進行查核
+3. 能夠使用AI模式進行查核
+4. 能夠使用prompt提升查核的準確度
+5. 認識其它查核工具
+
+:::
+
+## 任務一 以圖搜圖
+Q1：使用GOOGLE以圖搜圖功能，查看看這個地點在哪裡？
+![01.這是哪裡](https://hackmd.io/_uploads/SJuVacslGe.jpg)
+
+## 任務二 GOOGLE 智慧鏡頭+以圖搜圖
+Q2：按右鍵，開啟GOOGLE智慧鏡頭搜尋，查看看這個地點在哪裡？
+![02.這是哪裡](https://hackmd.io/_uploads/rkz1Rqigzl.jpg)
+
+Q3：查看看這個地點在哪裡？然後打開google map，查看看離這景點最近的國中是哪一間？
+![03.我在哪教書](https://hackmd.io/_uploads/BkMkR9ixfx.jpg)
+
+## 任務三 問AI
+![AI模式](https://hackmd.io/_uploads/SkmCF6jxGl.jpg)
+Q4.開啟瀏覽器的AI模式，問「這張圖片是真的嗎?還是AI生成的?」
+![04.這是真的嗎](https://hackmd.io/_uploads/SkeW509ogGx.jpg)
+
+Q5-1.哪一個建築物是AI生圖？
+圖A：
+![Art Nouveau](https://hackmd.io/_uploads/SkfGiMn2Gg.png)
+
+
+圖B：
+![怪怪屋02](https://hackmd.io/_uploads/BJi0YG22Me.jpg)
+
+Q5-2.哪一張旋轉樓梯是AI生圖？
+圖A：
+![哪一張是AI生圖(旋轉樓梯)-A](https://hackmd.io/_uploads/BkjnljoeGe.jpg)
+
+圖B：
+![哪一張是AI生圖(旋轉樓梯)-B](https://hackmd.io/_uploads/Bkxpliixfg.jpg)
+
+圖C：
+![哪一張是AI生圖(旋轉樓梯)-C](https://hackmd.io/_uploads/BySaesogGe.jpg)
+
+## 任務四 STOP查核技巧練習
+
+網傳「只有七個名字的民族」故事內容：
+```
+雪巴人信仰藏傳佛教，相信一週7天各有不同的守護神，因此都以星期幾出生來命名。
+星期天出生就叫太陽，星期二出生就叫月亮。一個村莊裡總共就只有7個名字，如果有一個媽媽叫「太陽啊~回家吃飯啦！」就會有1/7的小孩跑回家去了。
+這樣怎麼搞得清楚，倒底是在叫誰啦🤣🤣🤣
+星期天「Nyima」，有「太陽」的意思。
+星期一「Dawa」，有「月亮」的意思。
+星期二「Mingma」，有「火星」的意思。
+星期三「Lhakpa」，有「水星」的意思。
+星期四「Fura」、「Phurba」、「Furba」，有「木星」的意思。
+星期五「Pasang」，有「金星」的意思。
+星期六「Pemba」，有「土星」的意思。
+```
+
+
+## 任務五 擅用查核指令，打破AI幻覺
+AI幻覺示例
+:::spoiler
+```
+請用 micro:bit MicroPython 的 display.scroll_vertical() 寫一段讓文字由下往上捲動的程式,並說明參數。
+```
+
+scroll_vertical() 是我自己編的,目前官方並沒有這個函式,請你先查一下官方文件確認。AI 很容易煞有其事地寫出程式和參數說明。老師貼進編輯器一執行就報錯,查核結果一目了然。
+
+若AI生成了程式碼，請貼在[模擬器](https://python.microbit.org/v/3)上執行看看。
+:::
+
+AI可能產生幻覺的場景：冷門、在地、要求精確細節..更容易出錯
+:::spoiler
+### 例子二:不存在的教材或指引
+請摘要國教院《國中生活科技 AI 融入教學手冊(2023)》第二章的教學活動,並列出頁碼。
+
+這份手冊是我虛構的。可以順便讓老師比較「搜尋功能開啟」和「關閉」時,AI 的反應有什麼不同。
+
+### 例子三:錯誤前提
+教育部規定國小三年級起必須學會 Python,依據是哪一份公文?
+
+我的理解是課綱並沒有這樣的規定,但請你自行到教育部或國教院網站確認。看 AI 會糾正前提,還是順著編出公文字號。
+
+### 例子四:冷門版本細節
+micro:bit V1 和 V2 在 MakeCode 中,哪些積木只有 V2 能用?請完整列出。
+
+要求「完整列出」是關鍵,AI 常常漏列或多列。老師可以對照 MakeCode 官方網站驗證,這個例子比較適合展示「部分正確、部分錯誤」的情況。
+:::
+
+### 設定「事實查核員」角色
+&gt; 提示詞範例：「你現在是一名專業的事實查核員，請調查以下陳述，列出支持
+&gt; 與反對的證據。」
+
+
+### 要求「按部就班」（Step-by-Step）、列出「參考網站或文件」進行推理
+&gt; 提示詞範例：「請依序進行:
+&gt; 1. 列出內容中的關鍵事實(人事時地物、數字、函式名稱、文件名稱、法條等)
+&gt; 2. 優先搜尋權威來源(政府機關、學術機構、官方文件)
+&gt; 3. 比對陳述與來源之間的差異
+&gt; 4. 給出結論」
+
+
+### 其它規則
+&gt; 提示詞範例：「規則: 每個陳述請標示結論:「有可靠來源支持」、「與來源不符」或「查無資料」
+&gt; - 找不到可靠來源時,請直接寫「查無資料」,不要推測,也不要編造來源或連結
+&gt; - 只提供你確實搜尋到的連結,並說明該連結的哪一部分支持或反駁這個陳述
+&gt; - 若不同來源說法衝突,請分別說明各方觀點
+&gt; - 若涉及程式碼或操作步驟,請標示你無法確定的部分,並指出我應該查哪份官方文件
+&gt; - 最後請列出「我應該自己再確認的地方」
+
+:::success
+可直接複製以下完整查核指令請AI進行查核：
+```
+你現在是一名嚴謹的事實查核員。請查核我貼上的內容,並逐句拆成單一陳述,分別查證。
+
+請依序進行:
+1. 列出內容中的關鍵事實(人事時地物、數字、函式名稱、文件名稱、法條等)
+2. 優先搜尋權威來源(政府機關、學術機構、官方文件)
+3. 比對陳述與來源之間的差異
+4. 給出結論
+
+規則:
+- 每個陳述請標示結論:「有可靠來源支持」、「與來源不符」或「查無資料」
+- 找不到可靠來源時,請直接寫「查無資料」,不要推測,也不要編造來源或連結
+- 只提供你確實搜尋到的連結,並說明該連結的哪一部分支持或反駁這個陳述
+- 若不同來源說法衝突,請分別說明各方觀點
+- 若涉及程式碼或操作步驟,請標示你無法確定的部分,並指出我應該查哪份官方文件
+- 最後請列出「我應該自己再確認的地方」
+```
+:::
+
+Q6.訊息查核影片
+`傳言：「伊朗襲擊了位於杜拜的美國中央情報局總部,相關畫面已經曝光，阿聯酋正在逮捕那些洩漏影片的人。但他們無法掩蓋這件事。」`
+[影片連結](https://drive.google.com/file/d/1ZKmehYpzDrDYaT3lP0a3UCJS81qZVB5g/view?usp=sharing)
+
+## 任務六 模擬情境查核遊戲
+[![螢幕擷取畫面 2026-11-14 081326](https://hackmd.io/_uploads/rJ1Aw7H0Ml.png)](https://eurekalea.github.io/html/case072.html)
+
+
+## 補充資料
+- 詐騙網址幫你查 https://check.mygopen.com/ ([教學影片](https://www.instagram.com/reel/Dddgm8yyamk/))
+- [LINE 官方機器人](https://line.me/R/ti/p/%40mygopen) ([使用教學](https://www.mygopen.com/p/blog-page_28.html))
+- [Google Fact Check Tools](https://toolbox.google.com/factcheck/explorer/search/list:recent;hl=zh)
+- [HIVE Moderation](https://hivemoderation.com/ai-generated-content-detection)：上傳圖像、視訊或音頻，進行逐幀 AI 生成和深度偽造檢測，並給出機率評分。
+- [公視君竹的媒體白名單](https://andrewintw.github.io/taiwan-media-whitelist/)
+
+:::success
+:bulb:不是什麼都要查！想轉傳 + 高風險-&gt;必須先查證
+:::
+
+![螢幕擷取畫面 2026-06-02 112905](https://hackmd.io/_uploads/SJOS0aixfg.png)
+
+
+
+&lt;style&gt;
+/* Spoiler 區塊 */
+.markdown-body details {
+  background-color: #f7f7f8 !important;
+  color: #222222 !important;
+  border-radius: 8px;
+  padding: 8px 12px;
+}
+
+/* 文字保持清晰 */
+.markdown-body details * {
+  opacity: 1 !important;
+}
+
+/* Spoiler 標題 */
+.markdown-body details summary {
+  color: #111111 !important;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* 一般內文 */
+.markdown-body details p,
+.markdown-body details li {
+  color: #222222 !important;
+}
+
+/* 超連結：藍字 + 底線 */
+.markdown-body details a,
+.markdown-body details a:link,
+.markdown-body details a:visited,
+.markdown-body details p a,
+.markdown-body details li a {
+  color: #0969da !important;
+  -webkit-text-fill-color: #0969da !important;
+  text-decoration: underline !important;
+  text-underline-offset: 2px;
+}
+
+/* 滑鼠移過超連結 */
+.markdown-body details a:hover {
+  color: #0550ae !important;
+  -webkit-text-fill-color: #0550ae !important;
+  text-decoration: underline !important;
+}
+&lt;/style&gt;
+
+</div>
+    <!-- signin modal -->
+
+<div class="modal fade signin-modal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="margin-top: 10px; right: 20px; position: absolute;"><span aria-hidden="true">&times;</span></button>
+            
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+<h3 class="!mt-[30px] md:!mt-[52px]">Sign in</h3>
+
+<form data-toggle="validator" role="form" class="form-horizontal" method="post" enctype="application/x-www-form-urlencoded" id="signin-form">
+    <div class="hmd-dn"><input type="hidden" name="_csrf" value="DsH7trQ4-avKeVF6tdVUq0KwJo9Hcq9KF0Us"></div>
+    <div class="hmd-dn"><input type="hidden" name="create_team" value="false"></div>
+    <div class="hmd-dn"><input type="hidden" name="create_paid_team" value="false"></div>
+    
+    <div class="form-group  ">
+        <label for="email" class="control-label">Email</label>
+        <label for="inputEmail" class="control-label pull-right errors">
+            
+        </label>
+        <span class="help-block control-label with-errors pull-right" style="margin-top: 14px"></span>
+        <div class="input-block">
+            
+                <input type="email" class="form-control" name="email" placeholder="Your email" required autocomplete="email" id="inputEmail">
+            
+            <span class="error-sign"></span>
+        </div>
+    </div>
+    <div class="form-group ">
+        <label for="password" class="control-label">Password</label>
+        <label for="inputPassword" class="control-label pull-right errors">
+            
+        </label>
+        <span class="help-block control-label with-errors pull-right" style="margin-top: 14px"></span>
+        <div class="input-block">
+            <input type="password" class="form-control" name="password" placeholder="Your password" required autocomplete="current-password" maxlength="128">
+            <span class="error-sign"></span>
+            
+                <span class="control-label pull-right !text-normal !leading-normal !font-normal !mt-1.5"><a href="https://hackmd.io/settings/forgotPassword" style="text-decoration: underline;">Forgot password</a></span>
+            
+        </div>
+    </div>
+    <div
+        id="hmd-captcha"
+        data-provider=""
+        data-captcha-data=""
+        class="flex justify-center"
+        style="display: none;"
+    ></div>
+</form>
+
+
+    <div class="last-login-submit-container relative">
+        <input type="submit" data-login-method="email" class="neo-btn neo-btn-primary w-full !justify-center !py-[11px] !text-lg !leading-lg !mx-0" value="Sign in" form="signin-form" formaction="https://hackmd.io/login">
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="!space-y-4">
+    
+        
+            <div class="relative isolate">
+                <span class="bg-background-default text-body leading-normal text-text-subtle px-1.5">or</span>
+                <span class="z-[-1] h-[1px] w-full flex absolute translate-y-[-9.5px] border border-solid border-border-default " aria-hidden="true"></span>
+            </div>
+        
+
+        
+
+
+
+
+
+
+
+
+<div class="oauth-sign-container !space-y-1.5 !m-0">
+    
+    <a href="https://hackmd.io/auth/google" data-login-method="google" class="neo-btn neo-btn-tertiary w-full items-center !py-[7px] !px-[9px] hocus:no-underline">
+        <img src="/social/google.svg" width="28">
+        <span class="flex-1 text-center">
+            Sign in via Google
+        </span>
+    </a>
+    
+
+    <!-- A 1:1 clone of the exact dark button gsi provides. Just in case if Google is not happy with the custom button
+    
+    <a href="https://hackmd.io/auth/google" class="neo-btn neo-btn-tertiary w-full items-center !py-[7px] !px-[9px] hocus:no-underline !bg-[#131314] !border-[#8E918F] hocus:!bg-[#131314] hocus:!border-[#8E918F] !text-[#E3E3E3] font-['Roboto_Medium'] isolate group/google-button overflow-hidden relative">
+        <div aria-hidden="true" class="absolute top-0 left-0 z-[-1] bg-white/[.08] tw-hide w-full h-full group-hover/google-button:flex group-focus/google-button:flex"></div>
+        <img src="/social/google.svg" width="28">
+        <span class="flex-1 text-center">
+            Sign in via Google
+        </span>
+    </a>
+    
+    -->
+
+    
+    <a href="https://hackmd.io/auth/facebook" data-login-method="facebook" class="neo-btn neo-btn-tertiary w-full items-center !py-[7px] !px-[9px] hocus:no-underline">
+        <img src="/social/facebook.svg" width="28">
+        <span class="flex-1 text-center">
+            Sign in via Facebook
+        </span>
+    </a>
+    
+
+    
+    <a href="https://hackmd.io/auth/twitter" data-login-method="twitter" class="neo-btn neo-btn-tertiary w-full items-center !py-[7px] !px-[9px] hocus:no-underline">
+        <img src="/social/x.svg" width="28">
+        <span class="flex-1 text-center">
+            Sign in via X(Twitter)
+        </span>
+    </a>
+    
+
+    
+    <a href="https://hackmd.io/auth/github" data-login-method="github" class="neo-btn neo-btn-tertiary w-full items-center !py-[7px] !px-[9px] hocus:no-underline">
+        <img src="/social/github.svg" width="28">
+        <span class="flex-1 text-center">
+            Sign in via GitHub
+        </span>
+    </a>
+    
+    
+    <a href="https://hackmd.io/auth/dropbox" data-login-method="dropbox" class="neo-btn neo-btn-tertiary w-full items-center !py-[7px] !px-[9px] hocus:no-underline">
+        <img src="/social/dropbox.svg" width="28">
+        <span class="flex-1 text-center">
+            Sign in via Dropbox
+        </span>
+    </a>
+    
+    
+    
+      <a href="#" data-login-method="web3" class="neo-btn neo-btn-tertiary w-full items-center !py-[7px] !px-[9px] hocus:no-underline btn-web3">
+          <img src="https://hackmd.io/images/wallet.svg" width="28">
+          <span class="sign-in-wallet-text flex-1 text-center">
+              Sign in with Wallet
+          </span>
+
+          <div class="inline-flex items-center justify-between flex-1 hidden web3-wallet-info">
+              <span>
+                   Wallet
+                   (
+                    <span class="web3-wallet-address"></span>
+                   )
+              </span>
+
+              <i class="fa fa-arrow-right" aria-hidden="true"></i>
+          </div>
+      </a>
+
+      <small class="web3-wallet-info hidden text-left hocus:text-white underline hocus:underline block pt-2 ui-disconnect-connected-wallets text-gray-600 cursor-pointer">
+          Connect another wallet
+      </small>
+    
+
+    <button type="button" class="ui-continue-with-different neo-btn neo-btn-ghost w-full items-center !py-[7px] !px-[9px] hidden">
+        Continue with a different method
+    </button>
+</div>
+<script nonce="dc036a1b-7b30-4415-9366-cc8441b003ab">
+const displayCount = 4
+;(() => {
+    const container = document.querySelector('.oauth-sign-container')
+    if (!container) return
+    const buttons = Array.from(container.querySelectorAll(':is(a, button).neo-btn.neo-btn-tertiary'))
+    const continueWithDifferent = container.querySelector('.ui-continue-with-different')
+    if (!continueWithDifferent) return
+    if (buttons.length <= displayCount) return
+
+    continueWithDifferent.classList.remove('hidden')
+    for (let i = displayCount; i < buttons.length; i++) {
+        buttons[i].classList.add('hidden')
+    }
+
+    continueWithDifferent.addEventListener('click', () => {
+        continueWithDifferent.classList.add('hidden')
+        const currentButtons = Array.from(container.querySelectorAll(':is(a, button).neo-btn.neo-btn-tertiary'))
+        for (const button of currentButtons) {
+            button.classList.remove('hidden')
+        }
+    })
+})()
+</script>
+
+    
+
+    
+        <div>
+            <p class="!m-0 text-body leading-normal">New to HackMD? <a href="https://hackmd.io/join" class="!text-text-primary hocus:!text-link-text-hover plausible-event-name=LoginModalSignUp">Sign up</a></p>
+        </div>
+    
+</div>
+
+
+
+
+
+    <p class="!text-sm !leading-sm !text-text-subtle">By signing in, you agree to our <a class="!text-text-subtle hocus:!text-text-default" href="https://hackmd.io/s/terms" target="_blank">terms of service</a>.</p>
+
+
+        </div>
+    </div>
+</div>
+
+    
+    <script src="https://www.googletagmanager.com/gtag/js?id=G-NGVZMM6DR6"></script>
+    <script nonce="dc036a1b-7b30-4415-9366-cc8441b003ab">
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        let userid = (document.cookie.match('(^|; )userid=([^;]*)')||0)[2];
+        gtag('config', 'G-NGVZMM6DR6', {'user_id': userid});
+        
+    </script>
+
+
+    
+<script src="https://browser.sentry-cdn.com/5.15.5/bundle.min.js" crossorigin="anonymous"></script>
+<script nonce="dc036a1b-7b30-4415-9366-cc8441b003ab">
+  Sentry.init({ dsn: 'https://73410f1915d84abc8b2dd1f1aabd1c82@sentry.hackmd.dev/4', environment: 'production', integrations: function (intrus) { return intrus.filter(function (itr) { return itr.name !== 'TryCatch' }) } });
+  const sentryUserId = document.cookie
+    .split('; ')
+    .map(cookie => cookie.split('='))
+    .reduce((acc, [k, v]) => k === 'userid' ? v : acc, '');
+  Sentry.setUser(sentryUserId ? { id: sentryUserId } : null);
+</script>
+
+
+    
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KLW9Z3"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+
+    <script src="https://hackmd.io/api/i18n.js"></script>
+    
+
+<script type="module" src="https://assets.hackmd.io/build/assets/font-vendor-C9roANZ_.js"></script>
+<script type="module" src="https://assets.hackmd.io/build/assets/common-vendor-D_x_QNh-.js"></script>
+<script type="module" src="https://assets.hackmd.io/build/assets/pretty-vendor-BL34EkfU.js"></script>
+<script type="module" src="https://assets.hackmd.io/build/assets/pretty-common-D7ZbO3GG.js"></script>
+<script type="module" src="https://assets.hackmd.io/build/assets/pretty-Z1YWl89I.js"></script>
+
+
+    
+
+</body>
+</html>

@@ -1,0 +1,6 @@
+# Scripts temporary artifacts
+scripts/test*
+scripts/verify*
+*.log
+.DS_Store
+Thumbs.db
